@@ -51,7 +51,7 @@ public class TC_06_CreateContact_VerifyTest extends BaseUtilityClass{
 				webutil.switchWindow(wh);
 			}
 		}
-		WebElement table=createcontactpage.getTable();
+		//WebElement table=createcontactpage.getTable();
 		WebElement Organization_Name=driver.findElement(By.xpath("//a[@id='"+org_select+"']"));
 		Organization_Name.click();
 		webutil.switchWindow(parent_WH);

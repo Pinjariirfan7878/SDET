@@ -6,7 +6,6 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import com.vtiger.GenericLib.FileLib;
-import com.vtiger.GenericLib.IAutoconsts;
 
 public class LoginPage {
 

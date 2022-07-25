@@ -2,10 +2,7 @@ package com.vtiger.GenericLib;
 
 import java.util.Random;
 
-import java.util.stream.IntStream;
-
 import com.github.javafaker.Faker;
-import com.github.javafaker.FunnyName;
 
 
 /**
@@ -62,7 +59,7 @@ public class fakeData {
 	
 	/**
 	 * @author pinja
-	 * @description : This methos is going to Generate randomNumber
+	 * @description : This method is going to Generate randomNumber
 	 * @return int random number
 	 */
 	public int randomData()

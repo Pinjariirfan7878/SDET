@@ -17,7 +17,8 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseUtilityClass implements IAutoconsts{
 
-	public static WebDriver driver;
+	public  WebDriver driver;
+	public static WebDriver sdriver;
 
 	@BeforeSuite
 	public void connectToDatabase()
@@ -52,6 +53,7 @@ public class BaseUtilityClass implements IAutoconsts{
 		webutil.imlicitWait();
 		String url=flib.readPropertyData(PROP_PATH,"url");
 		driver.get(url);
+		sdriver=driver;
 	}
 	@BeforeMethod
 	public void loginToApp() throws Throwable

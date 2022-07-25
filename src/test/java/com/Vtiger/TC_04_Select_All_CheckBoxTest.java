@@ -1,24 +1,13 @@
 package com.Vtiger;
 
-import java.time.Duration;
 import java.util.List;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
 
 import com.ObjectRepo.HomePage;
-import com.ObjectRepo.LoginPage;
 import com.ObjectRepo.OrganizationPage;
 import com.vtiger.GenericLib.BaseUtilityClass;
-import com.vtiger.GenericLib.FileLib;
-import com.vtiger.GenericLib.IAutoconsts;
-import com.vtiger.GenericLib.WebDriverUtility;
-
-import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class TC_04_Select_All_CheckBoxTest extends BaseUtilityClass {
 
