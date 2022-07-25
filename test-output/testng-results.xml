@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="10" total="17" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-24T19:27:20 IST" name="Suite" finished-at="2022-07-24T19:29:07 IST" duration-ms="106509">
+    <groups>
+    </groups>
+    <test started-at="2022-07-24T19:27:20 IST" name="Test" finished-at="2022-07-24T19:29:07 IST" duration-ms="106509">
+      <class name="com.Vtiger.TC_04_Select_All_CheckBoxTest">
+        <test-method is-config="true" signature="lauchBrowser()[pri:0, instance:com.Vtiger.TC_04_Select_All_CheckBoxTest@576d5deb]" started-at="2022-07-24T19:28:49 IST" name="lauchBrowser" finished-at="2022-07-24T19:28:52 IST" duration-ms="2768" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchBrowser -->
+        <test-method is-config="true" signature="loginToApp()[pri:0, instance:com.Vtiger.TC_04_Select_All_CheckBoxTest@576d5deb]" started-at="2022-07-24T19:28:52 IST" name="loginToApp" finished-at="2022-07-24T19:28:55 IST" duration-ms="2464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method signature="selectallTest()[pri:4, instance:com.Vtiger.TC_04_Select_All_CheckBoxTest@576d5deb]" started-at="2022-07-24T19:28:55 IST" name="selectallTest" finished-at="2022-07-24T19:29:05 IST" duration-ms="10307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectallTest -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.Vtiger.TC_04_Select_All_CheckBoxTest@576d5deb]" started-at="2022-07-24T19:29:05 IST" name="logout" finished-at="2022-07-24T19:29:07 IST" duration-ms="1765" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:com.Vtiger.TC_04_Select_All_CheckBoxTest@576d5deb]" started-at="2022-07-24T19:29:07 IST" name="closebrowser" finished-at="2022-07-24T19:29:07 IST" duration-ms="82" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- com.Vtiger.TC_04_Select_All_CheckBoxTest -->
+      <class name="com.Vtiger.TC_02_CreateOrganization_verifyTest">
+        <test-method is-config="true" signature="lauchBrowser()[pri:0, instance:com.Vtiger.TC_02_CreateOrganization_verifyTest@5e600dd5]" started-at="2022-07-24T19:28:35 IST" name="lauchBrowser" finished-at="2022-07-24T19:28:38 IST" duration-ms="2810" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchBrowser -->
+        <test-method is-config="true" signature="loginToApp()[pri:0, instance:com.Vtiger.TC_02_CreateOrganization_verifyTest@5e600dd5]" started-at="2022-07-24T19:28:38 IST" name="loginToApp" finished-at="2022-07-24T19:28:40 IST" duration-ms="2302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method signature="createOrganization()[pri:2, instance:com.Vtiger.TC_02_CreateOrganization_verifyTest@5e600dd5]" started-at="2022-07-24T19:28:40 IST" name="createOrganization" finished-at="2022-07-24T19:28:48 IST" duration-ms="7911" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrganization -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.Vtiger.TC_02_CreateOrganization_verifyTest@5e600dd5]" started-at="2022-07-24T19:28:48 IST" name="logout" finished-at="2022-07-24T19:28:49 IST" duration-ms="1328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:com.Vtiger.TC_02_CreateOrganization_verifyTest@5e600dd5]" started-at="2022-07-24T19:28:49 IST" name="closebrowser" finished-at="2022-07-24T19:28:49 IST" duration-ms="65" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- com.Vtiger.TC_02_CreateOrganization_verifyTest -->
+      <class name="com.Vtiger.TC_03_CreateOrganization_DeleteTest">
+        <test-method is-config="true" signature="connectToDatabase()[pri:0, instance:com.Vtiger.TC_03_CreateOrganization_DeleteTest@771a660]" started-at="2022-07-24T19:27:20 IST" name="connectToDatabase" finished-at="2022-07-24T19:27:20 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- connectToDatabase -->
+        <test-method is-config="true" signature="lauchBrowser()[pri:0, instance:com.Vtiger.TC_03_CreateOrganization_DeleteTest@771a660]" started-at="2022-07-24T19:27:20 IST" name="lauchBrowser" finished-at="2022-07-24T19:27:25 IST" duration-ms="4791" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchBrowser -->
+        <test-method is-config="true" signature="loginToApp()[pri:0, instance:com.Vtiger.TC_03_CreateOrganization_DeleteTest@771a660]" started-at="2022-07-24T19:27:25 IST" name="loginToApp" finished-at="2022-07-24T19:27:27 IST" duration-ms="2276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method signature="Endtoend()[pri:3, instance:com.Vtiger.TC_03_CreateOrganization_DeleteTest@771a660]" started-at="2022-07-24T19:27:27 IST" name="Endtoend" finished-at="2022-07-24T19:27:41 IST" duration-ms="13253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Endtoend -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.Vtiger.TC_03_CreateOrganization_DeleteTest@771a660]" started-at="2022-07-24T19:27:41 IST" name="logout" finished-at="2022-07-24T19:27:42 IST" duration-ms="988" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:com.Vtiger.TC_03_CreateOrganization_DeleteTest@771a660]" started-at="2022-07-24T19:27:42 IST" name="closebrowser" finished-at="2022-07-24T19:27:42 IST" duration-ms="79" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="diconnectToDatabase()[pri:0, instance:com.Vtiger.TC_03_CreateOrganization_DeleteTest@771a660]" started-at="2022-07-24T19:29:07 IST" name="diconnectToDatabase" finished-at="2022-07-24T19:29:07 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- diconnectToDatabase -->
+      </class> <!-- com.Vtiger.TC_03_CreateOrganization_DeleteTest -->
+      <class name="com.Vtiger.timeepass">
+        <test-method signature="tt()[pri:0, instance:com.Vtiger.timeepass@60bd273d]" started-at="2022-07-24T19:27:58 IST" name="tt" finished-at="2022-07-24T19:27:58 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tt -->
+      </class> <!-- com.Vtiger.timeepass -->
+      <class name="com.Vtiger.TC_01_CreateOrganizationTest">
+        <test-method is-config="true" signature="lauchBrowser()[pri:0, instance:com.Vtiger.TC_01_CreateOrganizationTest@121314f7]" started-at="2022-07-24T19:27:58 IST" name="lauchBrowser" finished-at="2022-07-24T19:28:00 IST" duration-ms="2705" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchBrowser -->
+        <test-method is-config="true" signature="loginToApp()[pri:0, instance:com.Vtiger.TC_01_CreateOrganizationTest@121314f7]" started-at="2022-07-24T19:28:00 IST" name="loginToApp" finished-at="2022-07-24T19:28:03 IST" duration-ms="2285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method signature="createOrg()[pri:1, instance:com.Vtiger.TC_01_CreateOrganizationTest@121314f7]" started-at="2022-07-24T19:28:03 IST" name="createOrg" finished-at="2022-07-24T19:28:10 IST" duration-ms="7858" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrg -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.Vtiger.TC_01_CreateOrganizationTest@121314f7]" started-at="2022-07-24T19:28:10 IST" name="logout" finished-at="2022-07-24T19:28:12 IST" duration-ms="1246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:com.Vtiger.TC_01_CreateOrganizationTest@121314f7]" started-at="2022-07-24T19:28:12 IST" name="closebrowser" finished-at="2022-07-24T19:28:12 IST" duration-ms="68" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- com.Vtiger.TC_01_CreateOrganizationTest -->
+      <class name="com.Vtiger.TC_06_CreateContact_VerifyTest">
+        <test-method is-config="true" signature="lauchBrowser()[pri:0, instance:com.Vtiger.TC_06_CreateContact_VerifyTest@4f80542f]" started-at="2022-07-24T19:27:42 IST" name="lauchBrowser" finished-at="2022-07-24T19:27:45 IST" duration-ms="3132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchBrowser -->
+        <test-method is-config="true" signature="loginToApp()[pri:0, instance:com.Vtiger.TC_06_CreateContact_VerifyTest@4f80542f]" started-at="2022-07-24T19:27:45 IST" name="loginToApp" finished-at="2022-07-24T19:27:47 IST" duration-ms="2497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method signature="createcontactTest()[pri:6, instance:com.Vtiger.TC_06_CreateContact_VerifyTest@4f80542f]" started-at="2022-07-24T19:27:47 IST" name="createcontactTest" finished-at="2022-07-24T19:27:56 IST" duration-ms="9028" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createcontactTest -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.Vtiger.TC_06_CreateContact_VerifyTest@4f80542f]" started-at="2022-07-24T19:27:56 IST" name="logout" finished-at="2022-07-24T19:27:58 IST" duration-ms="1283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:com.Vtiger.TC_06_CreateContact_VerifyTest@4f80542f]" started-at="2022-07-24T19:27:58 IST" name="closebrowser" finished-at="2022-07-24T19:27:58 IST" duration-ms="71" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- com.Vtiger.TC_06_CreateContact_VerifyTest -->
+      <class name="com.Vtiger.TC_05_Create_Campaign_DeleteTest">
+        <test-method is-config="true" signature="lauchBrowser()[pri:0, instance:com.Vtiger.TC_05_Create_Campaign_DeleteTest@130c12b7]" started-at="2022-07-24T19:28:12 IST" name="lauchBrowser" finished-at="2022-07-24T19:28:15 IST" duration-ms="2831" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchBrowser -->
+        <test-method is-config="true" signature="loginToApp()[pri:0, instance:com.Vtiger.TC_05_Create_Campaign_DeleteTest@130c12b7]" started-at="2022-07-24T19:28:15 IST" name="loginToApp" finished-at="2022-07-24T19:28:17 IST" duration-ms="2092" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method signature="campaignTest()[pri:5, instance:com.Vtiger.TC_05_Create_Campaign_DeleteTest@130c12b7]" started-at="2022-07-24T19:28:17 IST" name="campaignTest" finished-at="2022-07-24T19:28:30 IST" duration-ms="13002" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- campaignTest -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.Vtiger.TC_05_Create_Campaign_DeleteTest@130c12b7]" started-at="2022-07-24T19:28:30 IST" name="logout" finished-at="2022-07-24T19:28:31 IST" duration-ms="999" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:com.Vtiger.TC_05_Create_Campaign_DeleteTest@130c12b7]" started-at="2022-07-24T19:28:31 IST" name="closebrowser" finished-at="2022-07-24T19:28:35 IST" duration-ms="4169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- com.Vtiger.TC_05_Create_Campaign_DeleteTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
