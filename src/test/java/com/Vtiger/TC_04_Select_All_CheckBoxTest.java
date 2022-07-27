@@ -3,6 +3,7 @@ package com.Vtiger;
 import java.util.List;
 
 import org.openqa.selenium.WebElement;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.ObjectRepo.HomePage;
@@ -11,7 +12,7 @@ import com.vtiger.GenericLib.BaseUtilityClass;
 
 public class TC_04_Select_All_CheckBoxTest extends BaseUtilityClass {
 
-	@Test(priority = 4)
+	@Test(priority = 4,retryAnalyzer = com.vtiger.GenericLib.RetryAnalyser.class)
 	public void selectallTest() throws InterruptedException {
 
 		

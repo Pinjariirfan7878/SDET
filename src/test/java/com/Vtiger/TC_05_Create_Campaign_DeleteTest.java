@@ -1,6 +1,8 @@
 package com.Vtiger;
 
 import org.openqa.selenium.WebElement;
+import org.testng.Assert;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.ObjectRepo.CampaignCreatePage;
@@ -10,16 +12,16 @@ import com.ObjectRepo.ResponsePage;
 import com.vtiger.GenericLib.BaseUtilityClass;
 import com.vtiger.GenericLib.WebDriverUtility;
 import com.vtiger.GenericLib.fakeData;
-
+//@Listeners(com.vtiger.GenericLib.Mylistener.class)
 public class TC_05_Create_Campaign_DeleteTest extends BaseUtilityClass {
 
-	@Test(priority = 5)
+	@Test(priority = 5,retryAnalyzer = com.vtiger.GenericLib.RetryAnalyser.class)
 	public void campaignTest() throws InterruptedException {
 
 		fakeData fakerdata=new fakeData();
 		String fake_campaignName=fakerdata.campaignName();
 
-		
+
 		HomePage homepage=new HomePage(driver);
 		WebDriverUtility webutil=new WebDriverUtility(driver);
 		webutil.moveToElement(homepage.getMoveModul());
@@ -51,7 +53,7 @@ public class TC_05_Create_Campaign_DeleteTest extends BaseUtilityClass {
 		webutil.select_dd(dd, "campaignname");
 		responsepage.getSearchbtn().click();
 
-		Thread.sleep(1000);
+		Thread.sleep(2000);
 		campaignpage.getSearchcampcheckbox().click();
 		campaignpage.getDeleteCheckboxbtn().click();
 		webutil.alertAccept();
@@ -66,8 +68,9 @@ public class TC_05_Create_Campaign_DeleteTest extends BaseUtilityClass {
 		{
 			System.out.println("Organization is not deleted and verified Failed");
 		}	
+		Assert.assertFalse(false);
 
-		
+
 	}
 
 }

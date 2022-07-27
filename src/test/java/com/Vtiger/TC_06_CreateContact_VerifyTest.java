@@ -4,6 +4,7 @@ import java.util.Set;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.ObjectRepo.ContactPage;
@@ -16,7 +17,7 @@ import com.vtiger.GenericLib.fakeData;
 
 public class TC_06_CreateContact_VerifyTest extends BaseUtilityClass{
 
-	@Test(priority = 6)
+	@Test(priority = 6,retryAnalyzer = com.vtiger.GenericLib.RetryAnalyser.class)
 	public void createcontactTest() throws InterruptedException {
 
 		fakeData fakerdata=new fakeData();
@@ -69,7 +70,7 @@ public class TC_06_CreateContact_VerifyTest extends BaseUtilityClass{
 		{
 			System.out.println("contact added and verify Failed");
 		}
-
+        Assert.assertFalse(false);
 	}
 
 }

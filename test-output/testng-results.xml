@@ -1,41 +1,216 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results retried="3" ignored="6" total="12" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-07-25T13:23:36 IST" name="Default suite" finished-at="2022-07-25T13:24:00 IST" duration-ms="24022">
+  <suite started-at="2022-07-26T23:02:43 IST" name="Suite" finished-at="2022-07-26T23:03:20 IST" duration-ms="36762">
     <groups>
     </groups>
-    <test started-at="2022-07-25T13:23:36 IST" name="Default test" finished-at="2022-07-25T13:24:00 IST" duration-ms="24022">
-      <class name="com.Vtiger.TC_01_CreateOrganizationTest">
-        <test-method is-config="true" signature="connectToDatabase()[pri:0, instance:com.Vtiger.TC_01_CreateOrganizationTest@1ed6388a]" started-at="2022-07-25T13:23:36 IST" name="connectToDatabase" finished-at="2022-07-25T13:23:36 IST" duration-ms="6" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- connectToDatabase -->
-        <test-method is-config="true" signature="lauchBrowser()[pri:0, instance:com.Vtiger.TC_01_CreateOrganizationTest@1ed6388a]" started-at="2022-07-25T13:23:36 IST" name="lauchBrowser" finished-at="2022-07-25T13:23:41 IST" duration-ms="4317" status="PASS">
+    <test started-at="2022-07-26T23:02:43 IST" name="Test" finished-at="2022-07-26T23:03:20 IST" duration-ms="36762">
+      <class name="com.Vtiger.TC_04_Select_All_CheckBoxTest">
+        <test-method is-config="true" signature="lauchBrowser()[pri:0, instance:com.Vtiger.TC_04_Select_All_CheckBoxTest@1ed6388a]" started-at="2022-07-26T23:02:43 IST" name="lauchBrowser" finished-at="2022-07-26T23:02:49 IST" duration-ms="6256" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lauchBrowser -->
-        <test-method is-config="true" signature="loginToApp()[pri:0, instance:com.Vtiger.TC_01_CreateOrganizationTest@1ed6388a]" started-at="2022-07-25T13:23:41 IST" name="loginToApp" finished-at="2022-07-25T13:23:45 IST" duration-ms="3839" status="PASS">
+        <test-method is-config="true" signature="loginToApp()[pri:0, instance:com.Vtiger.TC_04_Select_All_CheckBoxTest@1ed6388a]" started-at="2022-07-26T23:02:49 IST" name="loginToApp" finished-at="2022-07-26T23:02:54 IST" duration-ms="4469" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToApp -->
-        <test-method signature="createOrg()[pri:1, instance:com.Vtiger.TC_01_CreateOrganizationTest@1ed6388a]" started-at="2022-07-25T13:23:45 IST" name="createOrg" finished-at="2022-07-25T13:23:58 IST" duration-ms="13387" status="PASS">
+        <test-method signature="selectallTest()[pri:4, instance:com.Vtiger.TC_04_Select_All_CheckBoxTest@1ed6388a]" started-at="2022-07-26T23:02:54 IST" name="selectallTest" finished-at="2022-07-26T23:03:09 IST" duration-ms="14684" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createOrg -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:com.Vtiger.TC_01_CreateOrganizationTest@1ed6388a]" started-at="2022-07-25T13:23:58 IST" name="logout" finished-at="2022-07-25T13:24:00 IST" duration-ms="2094" status="PASS">
+        </test-method> <!-- selectallTest -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.Vtiger.TC_04_Select_All_CheckBoxTest@1ed6388a]" started-at="2022-07-26T23:03:09 IST" name="logout" finished-at="2022-07-26T23:03:11 IST" duration-ms="2802" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="closebrowser()[pri:0, instance:com.Vtiger.TC_01_CreateOrganizationTest@1ed6388a]" started-at="2022-07-25T13:24:00 IST" name="closebrowser" finished-at="2022-07-25T13:24:00 IST" duration-ms="100" status="PASS">
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:com.Vtiger.TC_04_Select_All_CheckBoxTest@1ed6388a]" started-at="2022-07-26T23:03:11 IST" name="closebrowser" finished-at="2022-07-26T23:03:12 IST" duration-ms="298" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closebrowser -->
-        <test-method is-config="true" signature="diconnectToDatabase()[pri:0, instance:com.Vtiger.TC_01_CreateOrganizationTest@1ed6388a]" started-at="2022-07-25T13:24:01 IST" name="diconnectToDatabase" finished-at="2022-07-25T13:24:01 IST" duration-ms="0" status="PASS">
+      </class> <!-- com.Vtiger.TC_04_Select_All_CheckBoxTest -->
+      <class name="com.Vtiger.TC_02_CreateOrganization_verifyTest">
+        <test-method is-config="true" signature="lauchBrowser()[pri:0, instance:com.Vtiger.TC_02_CreateOrganization_verifyTest@3527942a]" started-at="2022-07-26T23:02:43 IST" name="lauchBrowser" finished-at="2022-07-26T23:02:50 IST" duration-ms="6396" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchBrowser -->
+        <test-method is-config="true" signature="loginToApp()[pri:0, instance:com.Vtiger.TC_02_CreateOrganization_verifyTest@3527942a]" started-at="2022-07-26T23:02:50 IST" name="loginToApp" finished-at="2022-07-26T23:02:55 IST" duration-ms="5060" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method signature="createOrganization()[pri:2, instance:com.Vtiger.TC_02_CreateOrganization_verifyTest@3527942a]" started-at="2022-07-26T23:02:55 IST" name="createOrganization" finished-at="2022-07-26T23:03:09 IST" duration-ms="14173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrganization -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.Vtiger.TC_02_CreateOrganization_verifyTest@3527942a]" started-at="2022-07-26T23:03:09 IST" name="logout" finished-at="2022-07-26T23:03:11 IST" duration-ms="2547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:com.Vtiger.TC_02_CreateOrganization_verifyTest@3527942a]" started-at="2022-07-26T23:03:11 IST" name="closebrowser" finished-at="2022-07-26T23:03:12 IST" duration-ms="303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- com.Vtiger.TC_02_CreateOrganization_verifyTest -->
+      <class name="com.Vtiger.TC_01_CreateOrganizationTest">
+        <test-method is-config="true" signature="connectToDatabase()[pri:0, instance:com.Vtiger.TC_01_CreateOrganizationTest@273e7444]" started-at="2022-07-26T23:02:43 IST" name="connectToDatabase" finished-at="2022-07-26T23:02:43 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- connectToDatabase -->
+        <test-method is-config="true" signature="lauchBrowser()[pri:0, instance:com.Vtiger.TC_01_CreateOrganizationTest@273e7444]" started-at="2022-07-26T23:02:43 IST" name="lauchBrowser" finished-at="2022-07-26T23:02:49 IST" duration-ms="5426" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchBrowser -->
+        <test-method is-config="true" signature="loginToApp()[pri:0, instance:com.Vtiger.TC_01_CreateOrganizationTest@273e7444]" started-at="2022-07-26T23:02:49 IST" name="loginToApp" finished-at="2022-07-26T23:02:54 IST" duration-ms="5317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method retried="true" signature="createOrg()[pri:1, instance:com.Vtiger.TC_01_CreateOrganizationTest@273e7444]" started-at="2022-07-26T23:02:54 IST" name="createOrg" finished-at="2022-07-26T23:02:55 IST" duration-ms="855" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.fail(Assert.java:106)
+at com.Vtiger.TC_01_CreateOrganizationTest.createOrg(TC_01_CreateOrganizationTest.java:25)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrg -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.Vtiger.TC_01_CreateOrganizationTest@273e7444]" started-at="2022-07-26T23:02:55 IST" name="logout" finished-at="2022-07-26T23:02:59 IST" duration-ms="4237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="loginToApp()[pri:0, instance:com.Vtiger.TC_01_CreateOrganizationTest@273e7444]" started-at="2022-07-26T23:02:59 IST" name="loginToApp" finished-at="2022-07-26T23:03:02 IST" duration-ms="3106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method retried="true" signature="createOrg()[pri:1, instance:com.Vtiger.TC_01_CreateOrganizationTest@273e7444]" started-at="2022-07-26T23:03:02 IST" name="createOrg" finished-at="2022-07-26T23:03:02 IST" duration-ms="39" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.fail(Assert.java:106)
+at com.Vtiger.TC_01_CreateOrganizationTest.createOrg(TC_01_CreateOrganizationTest.java:25)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrg -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.Vtiger.TC_01_CreateOrganizationTest@273e7444]" started-at="2022-07-26T23:03:02 IST" name="logout" finished-at="2022-07-26T23:03:06 IST" duration-ms="4123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="loginToApp()[pri:0, instance:com.Vtiger.TC_01_CreateOrganizationTest@273e7444]" started-at="2022-07-26T23:03:06 IST" name="loginToApp" finished-at="2022-07-26T23:03:10 IST" duration-ms="4039" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method retried="true" signature="createOrg()[pri:1, instance:com.Vtiger.TC_01_CreateOrganizationTest@273e7444]" started-at="2022-07-26T23:03:10 IST" name="createOrg" finished-at="2022-07-26T23:03:10 IST" duration-ms="86" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.fail(Assert.java:106)
+at com.Vtiger.TC_01_CreateOrganizationTest.createOrg(TC_01_CreateOrganizationTest.java:25)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrg -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.Vtiger.TC_01_CreateOrganizationTest@273e7444]" started-at="2022-07-26T23:03:10 IST" name="logout" finished-at="2022-07-26T23:03:16 IST" duration-ms="5505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="loginToApp()[pri:0, instance:com.Vtiger.TC_01_CreateOrganizationTest@273e7444]" started-at="2022-07-26T23:03:16 IST" name="loginToApp" finished-at="2022-07-26T23:03:19 IST" duration-ms="3266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:com.Vtiger.TC_01_CreateOrganizationTest@273e7444]" started-at="2022-07-26T23:03:19 IST" name="closebrowser" finished-at="2022-07-26T23:03:19 IST" duration-ms="179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="diconnectToDatabase()[pri:0, instance:com.Vtiger.TC_01_CreateOrganizationTest@273e7444]" started-at="2022-07-26T23:03:20 IST" name="diconnectToDatabase" finished-at="2022-07-26T23:03:20 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- diconnectToDatabase -->
       </class> <!-- com.Vtiger.TC_01_CreateOrganizationTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="com.Vtiger.TC_05_Create_Campaign_DeleteTest">
+        <test-method is-config="true" signature="lauchBrowser()[pri:0, instance:com.Vtiger.TC_05_Create_Campaign_DeleteTest@942a29c]" started-at="2022-07-26T23:02:43 IST" name="lauchBrowser" finished-at="2022-07-26T23:02:49 IST" duration-ms="6054" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchBrowser -->
+        <test-method is-config="true" signature="loginToApp()[pri:0, instance:com.Vtiger.TC_05_Create_Campaign_DeleteTest@942a29c]" started-at="2022-07-26T23:02:49 IST" name="loginToApp" finished-at="2022-07-26T23:02:55 IST" duration-ms="6048" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method signature="campaignTest()[pri:5, instance:com.Vtiger.TC_05_Create_Campaign_DeleteTest@942a29c]" started-at="2022-07-26T23:02:55 IST" name="campaignTest" finished-at="2022-07-26T23:03:18 IST" duration-ms="22698" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- campaignTest -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.Vtiger.TC_05_Create_Campaign_DeleteTest@942a29c]" started-at="2022-07-26T23:03:18 IST" name="logout" finished-at="2022-07-26T23:03:20 IST" duration-ms="1572" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:com.Vtiger.TC_05_Create_Campaign_DeleteTest@942a29c]" started-at="2022-07-26T23:03:20 IST" name="closebrowser" finished-at="2022-07-26T23:03:20 IST" duration-ms="172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- com.Vtiger.TC_05_Create_Campaign_DeleteTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

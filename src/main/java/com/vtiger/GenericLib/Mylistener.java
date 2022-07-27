@@ -15,7 +15,6 @@ import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 import com.google.common.io.Files;
-import com.mysql.cj.xdevapi.Result;
 
 public class Mylistener extends BaseUtilityClass implements ITestListener {
 
@@ -23,6 +22,7 @@ public class Mylistener extends BaseUtilityClass implements ITestListener {
 	ExtentReports reports;
 	ExtentTest test;
 	FileLib flib =new FileLib();
+	String methodName;
 
 
 	@Override
@@ -30,6 +30,7 @@ public class Mylistener extends BaseUtilityClass implements ITestListener {
 	{
 		System.out.println(result.getMethod().getMethodName()+" is start");
 		test=reports.createTest(result.getMethod().getMethodName());
+		methodName=result.getMethod().getMethodName();
 	}
 
 	@Override
@@ -47,7 +48,7 @@ public class Mylistener extends BaseUtilityClass implements ITestListener {
 
 		TakesScreenshot ts=(TakesScreenshot)sdriver;
 		File scr=ts.getScreenshotAs(OutputType.FILE);
-		String path=IAutoconsts.Screenshot_PATH+result.getMethod().getMethodName()+".png";
+		String path=IAutoconsts.Screenshot_PATH+methodName+".png";
 		File dsn=new File(path);
 		try {
 			Files.copy(scr, dsn);
@@ -66,7 +67,7 @@ public class Mylistener extends BaseUtilityClass implements ITestListener {
 	@Override
 	public void onStart(ITestContext context) 
 	{
-		reporter=new ExtentSparkReporter(IAutoconsts.Extendreport_PATH);
+		reporter=new ExtentSparkReporter(IAutoconsts.Extendreport_PATH+methodName+".html");
 		reporter.config().setTheme(Theme.DARK);
 		reporter.config().setDocumentTitle("Vtiger");
 
