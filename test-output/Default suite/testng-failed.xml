@@ -3,17 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.Vtiger.TC_03_CreateOrganization_DeleteTest">
+      <class name="com.Vtiger.TC_02_CreateOrganization_verifyTest">
         <methods>
           <include name="loginToApp"/>
           <include name="connectToDatabase"/>
           <include name="logout"/>
           <include name="lauchBrowser"/>
           <include name="diconnectToDatabase"/>
+          <include name="createOrganization"/>
           <include name="closebrowser"/>
-          <include name="Endtoend"/>
         </methods>
-      </class> <!-- com.Vtiger.TC_03_CreateOrganization_DeleteTest -->
+      </class> <!-- com.Vtiger.TC_02_CreateOrganization_verifyTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

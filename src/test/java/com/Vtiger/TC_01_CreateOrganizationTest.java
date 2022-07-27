@@ -1,7 +1,6 @@
 package com.Vtiger;
 
 import org.testng.Assert;
-import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.ObjectRepo.HomePage;
@@ -22,7 +21,7 @@ public class TC_01_CreateOrganizationTest  extends BaseUtilityClass{
 
 		fakeData fakerdata=new fakeData();
 		String Org_name=fakerdata.companyName();
-        Assert.fail();
+       
 		HomePage homepage=new HomePage(driver);
 		homepage.getOrganization_Linkbutton().click();
 	

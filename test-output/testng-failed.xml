@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite parallel="classes" name="Failed suite [Suite]">
-  <listeners>
-    <listener class-name="com.vtiger.GenericLib.Mylistener"/>
-  </listeners>
-  <test thread-count="5" parallel="classes" name="Test(failed)">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.Vtiger.TC_01_CreateOrganizationTest">
+      <class name="com.Vtiger.TC_02_CreateOrganization_verifyTest">
         <methods>
           <include name="loginToApp"/>
-          <include name="createOrg"/>
           <include name="connectToDatabase"/>
           <include name="logout"/>
           <include name="lauchBrowser"/>
           <include name="diconnectToDatabase"/>
+          <include name="createOrganization"/>
           <include name="closebrowser"/>
         </methods>
-      </class> <!-- com.Vtiger.TC_01_CreateOrganizationTest -->
+      </class> <!-- com.Vtiger.TC_02_CreateOrganization_verifyTest -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

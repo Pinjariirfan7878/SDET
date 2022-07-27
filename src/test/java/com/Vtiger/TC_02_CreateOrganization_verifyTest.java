@@ -10,13 +10,12 @@ import com.ObjectRepo.OrganizationCreatePage;
 import com.ObjectRepo.OrganizationPage;
 import com.ObjectRepo.ResponsePage;
 import com.vtiger.GenericLib.BaseUtilityClass;
-import com.vtiger.GenericLib.RetryAnalyser;
 import com.vtiger.GenericLib.WebDriverUtility;
 import com.vtiger.GenericLib.fakeData;
-//@Listeners(com.vtiger.GenericLib.Mylistener.class)
+@Listeners(com.vtiger.GenericLib.Mylistener.class)
 public class TC_02_CreateOrganization_verifyTest extends BaseUtilityClass {
 
-	@Test(priority = 2,retryAnalyzer = RetryAnalyser.class)
+	@Test(priority = 2)
 	public void createOrganization() {
 
 		fakeData fakedata=new fakeData();
@@ -24,7 +23,6 @@ public class TC_02_CreateOrganization_verifyTest extends BaseUtilityClass {
 
 		HomePage homepage=new HomePage(driver);
 		homepage.getOrganization_Linkbutton().click();
-
 
 		OrganizationPage organizatingPage=new OrganizationPage(driver);
 		organizatingPage.getCreate_Organization_linkButton().click();

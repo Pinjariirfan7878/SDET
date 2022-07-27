@@ -89,7 +89,7 @@ public class fakeData {
 	public int orgSelectData()
 	{
 		Random random =new Random();
-		int org_select=random.nextInt(1, 18);
+		int org_select=random.nextInt(17);
 		return org_select;
 	}
 
