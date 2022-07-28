@@ -1,10 +1,5 @@
 package com.vtiger.GenericLib;
 
-import java.io.File;
-import java.io.IOException;
-
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
@@ -14,7 +9,6 @@ import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
-import com.google.common.io.Files;
 
 public class Mylistener extends BaseUtilityClass implements ITestListener {
 
@@ -23,6 +17,7 @@ public class Mylistener extends BaseUtilityClass implements ITestListener {
 	ExtentTest test;
 	FileLib flib =new FileLib();
 	String methodName;
+	WebDriverUtility webutil;
 
 
 	@Override
@@ -45,29 +40,22 @@ public class Mylistener extends BaseUtilityClass implements ITestListener {
 	{
 		System.out.println(result.getMethod().getMethodName()+" is Fail");
 		test.log(Status.FAIL, result.getMethod().getMethodName()+" got Fail");
-
-		TakesScreenshot ts=(TakesScreenshot)sdriver;
-		File scr=ts.getScreenshotAs(OutputType.FILE);
-		String path=IAutoconsts.Screenshot_PATH+methodName+".png";
-		File dsn=new File(path);
-		try {
-			Files.copy(scr, dsn);
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
+		
+		webutil=new WebDriverUtility(driver);
+		webutil.screenshot(methodName);
 	}
 
 	@Override
 	public void onTestSkipped(ITestResult result)
 	{
-		System.out.println(" TC Skipped");
+		System.out.println(result.getMethod().getMethodName()+" TC Skipped");
 		test.log(Status.SKIP, result.getMethod().getMethodName()+" got Skip");
 	}
 
 	@Override
 	public void onStart(ITestContext context) 
 	{
-		reporter=new ExtentSparkReporter(IAutoconsts.Extendreport_PATH+methodName+".html");
+		reporter=new ExtentSparkReporter(IAutoconsts.Extendreport_PATH+"Vtiger"+".html");
 		reporter.config().setTheme(Theme.DARK);
 		reporter.config().setDocumentTitle("Vtiger");
 

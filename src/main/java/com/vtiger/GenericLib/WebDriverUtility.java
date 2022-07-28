@@ -1,8 +1,12 @@
 package com.vtiger.GenericLib;
 
+import java.io.File;
+import java.io.IOException;
 import java.time.Duration;
 
 import org.openqa.selenium.Alert;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -10,11 +14,13 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class WebDriverUtility {
+import com.google.common.io.Files;
 
-	WebDriver driver;
+public class WebDriverUtility extends BaseUtilityClass {
 
-	public WebDriverUtility(WebDriver driver)   //Constructor
+	//WebDriver driver;
+
+	public WebDriverUtility(WebDriver driver)  
 	{
 		this.driver=driver;
 	}
@@ -78,5 +84,19 @@ public class WebDriverUtility {
 		return driver.switchTo().window(Wh);
 
 	}
+	 
+	public void screenshot(String methodName)
+	{
+		TakesScreenshot ts=(TakesScreenshot)sdriver;
+		File scr=ts.getScreenshotAs(OutputType.FILE);
+		String path=IAutoconsts.Screenshot_PATH+methodName+".png";
+		File dsn=new File(path);
+		try {
+			Files.copy(scr, dsn);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+	
 
 }
