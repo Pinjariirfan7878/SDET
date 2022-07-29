@@ -16,7 +16,7 @@ import com.vtiger.GenericLib.fakeData;
 public class TC_03_CreateOrganization_DeleteTest extends BaseUtilityClass {
 
 
-	@Test(priority = 3,retryAnalyzer = RetryAnalyser.class)
+	@Test(priority = 3,retryAnalyzer = RetryAnalyser.class,groups = {"Regression","batch_Execution"})
 	public void Endtoend() throws InterruptedException {
 
 		fakeData fakerdata=new fakeData();

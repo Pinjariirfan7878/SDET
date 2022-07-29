@@ -14,7 +14,7 @@ import com.vtiger.GenericLib.fakeData;
 //@Listeners(com.vtiger.GenericLib.Mylistener.class)
 public class TC_05_Create_Campaign_DeleteTest extends BaseUtilityClass {
 
-	@Test(priority = 5,retryAnalyzer = com.vtiger.GenericLib.RetryAnalyser.class)
+	@Test(priority = 5,retryAnalyzer = com.vtiger.GenericLib.RetryAnalyser.class,groups = {"smoke","Regression","batch_Execution"})
 	public void campaignTest() throws InterruptedException {
 
 		fakeData fakerdata=new fakeData();

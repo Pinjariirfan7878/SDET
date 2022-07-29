@@ -20,18 +20,18 @@ public class BaseUtilityClass implements IAutoconsts{
 	public  WebDriver driver;
 	public static WebDriver sdriver;
 
-	@BeforeSuite
+	@BeforeSuite(groups = {"smoke","Regression"})
 	public void connectToDatabase()
 	{
 		System.out.println("Connected To Database");
 	}
-	@AfterSuite
+	@AfterSuite(groups = {"smoke","Regression"})
 	public void diconnectToDatabase()
 	{
 		System.out.println("Disconnected To Database");
 	}
 
-	@BeforeClass
+	@BeforeClass(groups = {"smoke","Regression"})
 	public void  lauchBrowser() throws Throwable
 	{
 		FileLib flib=new FileLib();
@@ -55,7 +55,7 @@ public class BaseUtilityClass implements IAutoconsts{
 		driver.get(url);
 		sdriver=driver;
 	}
-	@BeforeMethod
+	@BeforeMethod(groups = {"smoke","Regression"})
 	public void loginToApp() throws Throwable
 	{
 		LoginPage loginpage=new LoginPage(driver);
@@ -65,7 +65,7 @@ public class BaseUtilityClass implements IAutoconsts{
 		loginpage.getloginapp(un, pwd);
 
 	}
-	@AfterMethod
+	@AfterMethod(groups = {"smoke","Regression"})
 	public void logout()
 	{
 		WebDriverUtility webutil=new WebDriverUtility(driver);
@@ -74,7 +74,7 @@ public class BaseUtilityClass implements IAutoconsts{
 		webutil.moveToElement(homepage.getLogout_Symbol());
 		homepage.getSign_Out_Button().click();
 	}
-	@AfterClass
+	@AfterClass(groups = {"smoke","Regression"})
 	public void closebrowser()
 	{
 		driver.close();

@@ -14,7 +14,7 @@ import com.vtiger.GenericLib.fakeData;
 //@Listeners(com.vtiger.GenericLib.Mylistener.class)
 public class TC_01_CreateOrganizationTest  extends BaseUtilityClass{
 
-	@Test(priority = 1,retryAnalyzer = RetryAnalyser.class)
+	@Test(priority = 1,retryAnalyzer = RetryAnalyser.class,groups = {"smoke","batch_Execution"})
 	public void createOrg() throws Throwable
 	{
 
