@@ -16,6 +16,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.google.common.io.Files;
 
+import freemarker.core.ReturnInstruction.Return;
+
 public class WebDriverUtility extends BaseUtilityClass {
 
 	//WebDriver driver;
@@ -85,7 +87,7 @@ public class WebDriverUtility extends BaseUtilityClass {
 
 	}
 	 
-	public void screenshot(String methodName)
+	public String screenshot(String methodName)
 	{
 		TakesScreenshot ts=(TakesScreenshot)sdriver;
 		File scr=ts.getScreenshotAs(OutputType.FILE);
@@ -96,6 +98,7 @@ public class WebDriverUtility extends BaseUtilityClass {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
+		return path;
 	}
 	
 

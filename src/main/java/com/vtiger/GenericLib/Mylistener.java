@@ -40,9 +40,11 @@ public class Mylistener extends BaseUtilityClass implements ITestListener {
 	{
 		System.out.println(result.getMethod().getMethodName()+" is Fail");
 		test.log(Status.FAIL, result.getMethod().getMethodName()+" got Fail");
-		
+
 		webutil=new WebDriverUtility(driver);
-		webutil.screenshot(methodName);
+		String	path=webutil.screenshot(methodName);
+
+		test.addScreenCaptureFromPath(path);
 	}
 
 	@Override

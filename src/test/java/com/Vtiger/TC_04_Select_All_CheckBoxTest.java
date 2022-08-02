@@ -3,6 +3,7 @@ package com.Vtiger;
 import java.util.List;
 
 import org.openqa.selenium.WebElement;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.ObjectRepo.HomePage;
@@ -14,8 +15,8 @@ public class TC_04_Select_All_CheckBoxTest extends BaseUtilityClass {
 	@Test(priority = 4,retryAnalyzer = com.vtiger.GenericLib.RetryAnalyser.class,groups = {"Regression","batch_Execution"})
 	public void selectallTest() throws InterruptedException {
 
-		
 
+		Assert.assertFalse(true);	
 		HomePage homepage=new HomePage(driver);
 		homepage.getOrganization_Linkbutton().click();
 

@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
+<listeners>
+<listener class-name="com.vtiger.GenericLib.Mylistener"></listener>
+</listeners>
   <test thread-count="5" name="Test">
     <classes>
-      <class name="com.Vtiger.TC_03_CreateOrganization_DeleteTest"/>
-      <class name="com.Vtiger.TC_06_CreateContact_VerifyTest"/>
-      <class name="com.Vtiger.TC_01_CreateOrganizationTest"/>
-      <class name="com.Vtiger.TC_02_CreateOrganization_verifyTest"/>
-      <class name="com.Vtiger.TC_05_Create_Campaign_DeleteTest"/>
+     
       <class name="com.Vtiger.TC_04_Select_All_CheckBoxTest"/>
     </classes>
   </test> <!-- Test -->
