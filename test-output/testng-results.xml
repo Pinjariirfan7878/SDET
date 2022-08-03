@@ -1,344 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results retried="2" ignored="10" total="18" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-08-02T14:29:49 IST" name="Suite" finished-at="2022-08-02T14:33:46 IST" duration-ms="236474">
+  <suite started-at="2022-08-03T15:15:04 IST" name="Default suite" finished-at="2022-08-03T15:15:38 IST" duration-ms="34183">
     <groups>
       <group name="Regression">
-        <method signature="TC_03_CreateOrganization_DeleteTest.Endtoend()[pri:3, instance:com.Vtiger.TC_03_CreateOrganization_DeleteTest@5e600dd5]" name="Endtoend" class="com.Vtiger.TC_03_CreateOrganization_DeleteTest"/>
-        <method signature="TC_04_Select_All_CheckBoxTest.selectallTest()[pri:4, instance:com.Vtiger.TC_04_Select_All_CheckBoxTest@4a883b15]" name="selectallTest" class="com.Vtiger.TC_04_Select_All_CheckBoxTest"/>
-        <method signature="TC_05_Create_Campaign_DeleteTest.campaignTest()[pri:5, instance:com.Vtiger.TC_05_Create_Campaign_DeleteTest@3012646b]" name="campaignTest" class="com.Vtiger.TC_05_Create_Campaign_DeleteTest"/>
-        <method signature="TC_06_CreateContact_VerifyTest.createcontactTest()[pri:6, instance:com.Vtiger.TC_06_CreateContact_VerifyTest@2e6a8155]" name="createcontactTest" class="com.Vtiger.TC_06_CreateContact_VerifyTest"/>
+        <method signature="TC_04_Select_All_CheckBoxTest.selectallTest()[pri:4, instance:com.Vtiger.TC_04_Select_All_CheckBoxTest@3f6f6701]" name="selectallTest" class="com.Vtiger.TC_04_Select_All_CheckBoxTest"/>
       </group> <!-- Regression -->
-      <group name="smoke">
-        <method signature="TC_01_CreateOrganizationTest.createOrg()[pri:1, instance:com.Vtiger.TC_01_CreateOrganizationTest@6221a451]" name="createOrg" class="com.Vtiger.TC_01_CreateOrganizationTest"/>
-        <method signature="TC_02_CreateOrganization_verifyTest.createOrganization()[pri:2, instance:com.Vtiger.TC_02_CreateOrganization_verifyTest@52719fb6]" name="createOrganization" class="com.Vtiger.TC_02_CreateOrganization_verifyTest"/>
-        <method signature="TC_05_Create_Campaign_DeleteTest.campaignTest()[pri:5, instance:com.Vtiger.TC_05_Create_Campaign_DeleteTest@3012646b]" name="campaignTest" class="com.Vtiger.TC_05_Create_Campaign_DeleteTest"/>
-        <method signature="TC_06_CreateContact_VerifyTest.createcontactTest()[pri:6, instance:com.Vtiger.TC_06_CreateContact_VerifyTest@2e6a8155]" name="createcontactTest" class="com.Vtiger.TC_06_CreateContact_VerifyTest"/>
-      </group> <!-- smoke -->
       <group name="batch_Execution">
-        <method signature="TC_01_CreateOrganizationTest.createOrg()[pri:1, instance:com.Vtiger.TC_01_CreateOrganizationTest@6221a451]" name="createOrg" class="com.Vtiger.TC_01_CreateOrganizationTest"/>
-        <method signature="TC_02_CreateOrganization_verifyTest.createOrganization()[pri:2, instance:com.Vtiger.TC_02_CreateOrganization_verifyTest@52719fb6]" name="createOrganization" class="com.Vtiger.TC_02_CreateOrganization_verifyTest"/>
-        <method signature="TC_03_CreateOrganization_DeleteTest.Endtoend()[pri:3, instance:com.Vtiger.TC_03_CreateOrganization_DeleteTest@5e600dd5]" name="Endtoend" class="com.Vtiger.TC_03_CreateOrganization_DeleteTest"/>
-        <method signature="TC_04_Select_All_CheckBoxTest.selectallTest()[pri:4, instance:com.Vtiger.TC_04_Select_All_CheckBoxTest@4a883b15]" name="selectallTest" class="com.Vtiger.TC_04_Select_All_CheckBoxTest"/>
-        <method signature="TC_05_Create_Campaign_DeleteTest.campaignTest()[pri:5, instance:com.Vtiger.TC_05_Create_Campaign_DeleteTest@3012646b]" name="campaignTest" class="com.Vtiger.TC_05_Create_Campaign_DeleteTest"/>
-        <method signature="TC_06_CreateContact_VerifyTest.createcontactTest()[pri:6, instance:com.Vtiger.TC_06_CreateContact_VerifyTest@2e6a8155]" name="createcontactTest" class="com.Vtiger.TC_06_CreateContact_VerifyTest"/>
+        <method signature="TC_04_Select_All_CheckBoxTest.selectallTest()[pri:4, instance:com.Vtiger.TC_04_Select_All_CheckBoxTest@3f6f6701]" name="selectallTest" class="com.Vtiger.TC_04_Select_All_CheckBoxTest"/>
       </group> <!-- batch_Execution -->
     </groups>
-    <test started-at="2022-08-02T14:29:49 IST" name="Test" finished-at="2022-08-02T14:33:46 IST" duration-ms="236474">
+    <test started-at="2022-08-03T15:15:04 IST" name="Default test" finished-at="2022-08-03T15:15:38 IST" duration-ms="34183">
       <class name="com.Vtiger.TC_04_Select_All_CheckBoxTest">
-        <test-method is-config="true" signature="lauchBrowser()[pri:0, instance:com.Vtiger.TC_04_Select_All_CheckBoxTest@4a883b15]" started-at="2022-08-02T14:33:26 IST" name="lauchBrowser" finished-at="2022-08-02T14:33:31 IST" duration-ms="4697" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- lauchBrowser -->
-        <test-method is-config="true" signature="loginToApp()[pri:0, instance:com.Vtiger.TC_04_Select_All_CheckBoxTest@4a883b15]" started-at="2022-08-02T14:33:31 IST" name="loginToApp" finished-at="2022-08-02T14:33:33 IST" duration-ms="2326" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginToApp -->
-        <test-method signature="selectallTest()[pri:4, instance:com.Vtiger.TC_04_Select_All_CheckBoxTest@4a883b15]" started-at="2022-08-02T14:33:33 IST" name="selectallTest" finished-at="2022-08-02T14:33:44 IST" duration-ms="10919" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- selectallTest -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:com.Vtiger.TC_04_Select_All_CheckBoxTest@4a883b15]" started-at="2022-08-02T14:33:44 IST" name="logout" finished-at="2022-08-02T14:33:46 IST" duration-ms="1598" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logout -->
-        <test-method is-config="true" signature="closebrowser()[pri:0, instance:com.Vtiger.TC_04_Select_All_CheckBoxTest@4a883b15]" started-at="2022-08-02T14:33:46 IST" name="closebrowser" finished-at="2022-08-02T14:33:46 IST" duration-ms="103" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closebrowser -->
-      </class> <!-- com.Vtiger.TC_04_Select_All_CheckBoxTest -->
-      <class name="com.Vtiger.TC_02_CreateOrganization_verifyTest">
-        <test-method is-config="true" signature="lauchBrowser()[pri:0, instance:com.Vtiger.TC_02_CreateOrganization_verifyTest@52719fb6]" started-at="2022-08-02T14:32:43 IST" name="lauchBrowser" finished-at="2022-08-02T14:32:47 IST" duration-ms="4398" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- lauchBrowser -->
-        <test-method is-config="true" signature="loginToApp()[pri:0, instance:com.Vtiger.TC_02_CreateOrganization_verifyTest@52719fb6]" started-at="2022-08-02T14:32:47 IST" name="loginToApp" finished-at="2022-08-02T14:32:50 IST" duration-ms="2417" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginToApp -->
-        <test-method signature="createOrganization()[pri:2, instance:com.Vtiger.TC_02_CreateOrganization_verifyTest@52719fb6]" started-at="2022-08-02T14:32:50 IST" name="createOrganization" finished-at="2022-08-02T14:32:59 IST" duration-ms="9352" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createOrganization -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:com.Vtiger.TC_02_CreateOrganization_verifyTest@52719fb6]" started-at="2022-08-02T14:32:59 IST" name="logout" finished-at="2022-08-02T14:33:01 IST" duration-ms="1732" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logout -->
-        <test-method is-config="true" signature="closebrowser()[pri:0, instance:com.Vtiger.TC_02_CreateOrganization_verifyTest@52719fb6]" started-at="2022-08-02T14:33:01 IST" name="closebrowser" finished-at="2022-08-02T14:33:01 IST" duration-ms="63" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closebrowser -->
-      </class> <!-- com.Vtiger.TC_02_CreateOrganization_verifyTest -->
-      <class name="com.Vtiger.TC_03_CreateOrganization_DeleteTest">
-        <test-method is-config="true" signature="connectToDatabase()[pri:0, instance:com.Vtiger.TC_03_CreateOrganization_DeleteTest@5e600dd5]" started-at="2022-08-02T14:29:49 IST" name="connectToDatabase" finished-at="2022-08-02T14:29:49 IST" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="connectToDatabase()[pri:0, instance:com.Vtiger.TC_04_Select_All_CheckBoxTest@3f6f6701]" started-at="2022-08-03T15:15:04 IST" name="connectToDatabase" finished-at="2022-08-03T15:15:04 IST" duration-ms="11" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- connectToDatabase -->
-        <test-method is-config="true" signature="lauchBrowser()[pri:0, instance:com.Vtiger.TC_03_CreateOrganization_DeleteTest@5e600dd5]" started-at="2022-08-02T14:29:49 IST" name="lauchBrowser" finished-at="2022-08-02T14:30:07 IST" duration-ms="17474" status="PASS">
+        <test-method is-config="true" signature="lauchBrowser()[pri:0, instance:com.Vtiger.TC_04_Select_All_CheckBoxTest@3f6f6701]" started-at="2022-08-03T15:15:04 IST" name="lauchBrowser" finished-at="2022-08-03T15:15:14 IST" duration-ms="9817" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lauchBrowser -->
-        <test-method is-config="true" signature="loginToApp()[pri:0, instance:com.Vtiger.TC_03_CreateOrganization_DeleteTest@5e600dd5]" started-at="2022-08-02T14:30:07 IST" name="loginToApp" finished-at="2022-08-02T14:30:11 IST" duration-ms="3870" status="PASS">
+        <test-method is-config="true" signature="loginToApp()[pri:0, instance:com.Vtiger.TC_04_Select_All_CheckBoxTest@3f6f6701]" started-at="2022-08-03T15:15:14 IST" name="loginToApp" finished-at="2022-08-03T15:15:16 IST" duration-ms="2452" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToApp -->
-        <test-method retried="true" signature="Endtoend()[pri:3, instance:com.Vtiger.TC_03_CreateOrganization_DeleteTest@5e600dd5]" started-at="2022-08-02T14:30:11 IST" name="Endtoend" finished-at="2022-08-02T14:30:37 IST" duration-ms="26181" status="SKIP">
-          <exception class="org.openqa.selenium.StaleElementReferenceException">
-            <message>
-              <![CDATA[stale element reference: element is not attached to the page document
-  (Session info: chrome=103.0.5060.134)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
-Build info: version: '4.2.2', revision: '683ccb65d6'
-System info: host: 'DESKTOP-3BU923C', ip: '192.168.26.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [2657267f0ddac2449ac5d1ba2aa7a6e2, clickElement {id=ac1c233d-05ce-48e6-b1cd-d1229612489a}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\pinja\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64921}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64921/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (2657267f0ddac2449ac5d1ba2aa7a6e2)] -> xpath: (//input[@value='Delete'])[2]]
-Session ID: 2657267f0ddac2449ac5d1ba2aa7a6e2]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
-  (Session info: chrome=103.0.5060.134)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
-Build info: version: '4.2.2', revision: '683ccb65d6'
-System info: host: 'DESKTOP-3BU923C', ip: '192.168.26.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [2657267f0ddac2449ac5d1ba2aa7a6e2, clickElement {id=ac1c233d-05ce-48e6-b1cd-d1229612489a}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\pinja\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64921}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64921/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (2657267f0ddac2449ac5d1ba2aa7a6e2)] -> xpath: (//input[@value='Delete'])[2]]
-Session ID: 2657267f0ddac2449ac5d1ba2aa7a6e2
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:588)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
-at jdk.proxy2/jdk.proxy2.$Proxy20.click(Unknown Source)
-at com.Vtiger.TC_03_CreateOrganization_DeleteTest.Endtoend(TC_03_CreateOrganization_DeleteTest.java:58)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+        <test-method signature="selectallTest()[pri:4, instance:com.Vtiger.TC_04_Select_All_CheckBoxTest@3f6f6701]" started-at="2022-08-03T15:15:16 IST" name="selectallTest" finished-at="2022-08-03T15:15:36 IST" duration-ms="19702" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Endtoend -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:com.Vtiger.TC_03_CreateOrganization_DeleteTest@5e600dd5]" started-at="2022-08-02T14:30:37 IST" name="logout" finished-at="2022-08-02T14:30:38 IST" duration-ms="1399" status="PASS">
+        </test-method> <!-- selectallTest -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.Vtiger.TC_04_Select_All_CheckBoxTest@3f6f6701]" started-at="2022-08-03T15:15:36 IST" name="logout" finished-at="2022-08-03T15:15:38 IST" duration-ms="2075" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="loginToApp()[pri:0, instance:com.Vtiger.TC_03_CreateOrganization_DeleteTest@5e600dd5]" started-at="2022-08-02T14:30:38 IST" name="loginToApp" finished-at="2022-08-02T14:30:41 IST" duration-ms="2522" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginToApp -->
-        <test-method retried="true" signature="Endtoend()[pri:3, instance:com.Vtiger.TC_03_CreateOrganization_DeleteTest@5e600dd5]" started-at="2022-08-02T14:30:41 IST" name="Endtoend" finished-at="2022-08-02T14:31:19 IST" duration-ms="37858" status="SKIP">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='genHeaderSmall']"}
-  (Session info: chrome=103.0.5060.134)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.2.2', revision: '683ccb65d6'
-System info: host: 'DESKTOP-3BU923C', ip: '192.168.26.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [2657267f0ddac2449ac5d1ba2aa7a6e2, findElement {using=xpath, value=//span[@class='genHeaderSmall']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\pinja\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64921}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64921/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 2657267f0ddac2449ac5d1ba2aa7a6e2]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='genHeaderSmall']"}
-  (Session info: chrome=103.0.5060.134)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.2.2', revision: '683ccb65d6'
-System info: host: 'DESKTOP-3BU923C', ip: '192.168.26.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [2657267f0ddac2449ac5d1ba2aa7a6e2, findElement {using=xpath, value=//span[@class='genHeaderSmall']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\pinja\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64921}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64921/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 2657267f0ddac2449ac5d1ba2aa7a6e2
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:588)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:406)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:398)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-at jdk.proxy2/jdk.proxy2.$Proxy20.isDisplayed(Unknown Source)
-at com.Vtiger.TC_03_CreateOrganization_DeleteTest.Endtoend(TC_03_CreateOrganization_DeleteTest.java:63)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Endtoend -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:com.Vtiger.TC_03_CreateOrganization_DeleteTest@5e600dd5]" started-at="2022-08-02T14:31:19 IST" name="logout" finished-at="2022-08-02T14:31:29 IST" duration-ms="9792" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logout -->
-        <test-method is-config="true" signature="loginToApp()[pri:0, instance:com.Vtiger.TC_03_CreateOrganization_DeleteTest@5e600dd5]" started-at="2022-08-02T14:31:29 IST" name="loginToApp" finished-at="2022-08-02T14:31:34 IST" duration-ms="5618" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginToApp -->
-        <test-method signature="Endtoend()[pri:3, instance:com.Vtiger.TC_03_CreateOrganization_DeleteTest@5e600dd5]" started-at="2022-08-02T14:31:34 IST" name="Endtoend" finished-at="2022-08-02T14:31:53 IST" duration-ms="19214" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Endtoend -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:com.Vtiger.TC_03_CreateOrganization_DeleteTest@5e600dd5]" started-at="2022-08-02T14:31:53 IST" name="logout" finished-at="2022-08-02T14:31:55 IST" duration-ms="1905" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logout -->
-        <test-method is-config="true" signature="closebrowser()[pri:0, instance:com.Vtiger.TC_03_CreateOrganization_DeleteTest@5e600dd5]" started-at="2022-08-02T14:31:55 IST" name="closebrowser" finished-at="2022-08-02T14:31:56 IST" duration-ms="579" status="PASS">
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:com.Vtiger.TC_04_Select_All_CheckBoxTest@3f6f6701]" started-at="2022-08-03T15:15:38 IST" name="closebrowser" finished-at="2022-08-03T15:15:38 IST" duration-ms="87" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closebrowser -->
-        <test-method is-config="true" signature="diconnectToDatabase()[pri:0, instance:com.Vtiger.TC_03_CreateOrganization_DeleteTest@5e600dd5]" started-at="2022-08-02T14:33:46 IST" name="diconnectToDatabase" finished-at="2022-08-02T14:33:46 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="diconnectToDatabase()[pri:0, instance:com.Vtiger.TC_04_Select_All_CheckBoxTest@3f6f6701]" started-at="2022-08-03T15:15:38 IST" name="diconnectToDatabase" finished-at="2022-08-03T15:15:38 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- diconnectToDatabase -->
-      </class> <!-- com.Vtiger.TC_03_CreateOrganization_DeleteTest -->
-      <class name="com.Vtiger.TC_01_CreateOrganizationTest">
-        <test-method is-config="true" signature="lauchBrowser()[pri:0, instance:com.Vtiger.TC_01_CreateOrganizationTest@6221a451]" started-at="2022-08-02T14:32:24 IST" name="lauchBrowser" finished-at="2022-08-02T14:32:27 IST" duration-ms="3608" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- lauchBrowser -->
-        <test-method is-config="true" signature="loginToApp()[pri:0, instance:com.Vtiger.TC_01_CreateOrganizationTest@6221a451]" started-at="2022-08-02T14:32:27 IST" name="loginToApp" finished-at="2022-08-02T14:32:30 IST" duration-ms="2581" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginToApp -->
-        <test-method signature="createOrg()[pri:1, instance:com.Vtiger.TC_01_CreateOrganizationTest@6221a451]" started-at="2022-08-02T14:32:30 IST" name="createOrg" finished-at="2022-08-02T14:32:41 IST" duration-ms="11314" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createOrg -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:com.Vtiger.TC_01_CreateOrganizationTest@6221a451]" started-at="2022-08-02T14:32:41 IST" name="logout" finished-at="2022-08-02T14:32:43 IST" duration-ms="1542" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logout -->
-        <test-method is-config="true" signature="closebrowser()[pri:0, instance:com.Vtiger.TC_01_CreateOrganizationTest@6221a451]" started-at="2022-08-02T14:32:43 IST" name="closebrowser" finished-at="2022-08-02T14:32:43 IST" duration-ms="71" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closebrowser -->
-      </class> <!-- com.Vtiger.TC_01_CreateOrganizationTest -->
-      <class name="com.Vtiger.TC_06_CreateContact_VerifyTest">
-        <test-method is-config="true" signature="lauchBrowser()[pri:0, instance:com.Vtiger.TC_06_CreateContact_VerifyTest@2e6a8155]" started-at="2022-08-02T14:31:56 IST" name="lauchBrowser" finished-at="2022-08-02T14:32:02 IST" duration-ms="6003" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- lauchBrowser -->
-        <test-method is-config="true" signature="loginToApp()[pri:0, instance:com.Vtiger.TC_06_CreateContact_VerifyTest@2e6a8155]" started-at="2022-08-02T14:32:02 IST" name="loginToApp" finished-at="2022-08-02T14:32:05 IST" duration-ms="3435" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginToApp -->
-        <test-method signature="createcontactTest()[pri:6, instance:com.Vtiger.TC_06_CreateContact_VerifyTest@2e6a8155]" started-at="2022-08-02T14:32:05 IST" name="createcontactTest" finished-at="2022-08-02T14:32:23 IST" duration-ms="17331" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createcontactTest -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:com.Vtiger.TC_06_CreateContact_VerifyTest@2e6a8155]" started-at="2022-08-02T14:32:23 IST" name="logout" finished-at="2022-08-02T14:32:24 IST" duration-ms="1002" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logout -->
-        <test-method is-config="true" signature="closebrowser()[pri:0, instance:com.Vtiger.TC_06_CreateContact_VerifyTest@2e6a8155]" started-at="2022-08-02T14:32:24 IST" name="closebrowser" finished-at="2022-08-02T14:32:24 IST" duration-ms="84" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closebrowser -->
-      </class> <!-- com.Vtiger.TC_06_CreateContact_VerifyTest -->
-      <class name="com.Vtiger.TC_05_Create_Campaign_DeleteTest">
-        <test-method is-config="true" signature="lauchBrowser()[pri:0, instance:com.Vtiger.TC_05_Create_Campaign_DeleteTest@3012646b]" started-at="2022-08-02T14:33:01 IST" name="lauchBrowser" finished-at="2022-08-02T14:33:05 IST" duration-ms="4595" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- lauchBrowser -->
-        <test-method is-config="true" signature="loginToApp()[pri:0, instance:com.Vtiger.TC_05_Create_Campaign_DeleteTest@3012646b]" started-at="2022-08-02T14:33:05 IST" name="loginToApp" finished-at="2022-08-02T14:33:08 IST" duration-ms="2978" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginToApp -->
-        <test-method signature="campaignTest()[pri:5, instance:com.Vtiger.TC_05_Create_Campaign_DeleteTest@3012646b]" started-at="2022-08-02T14:33:08 IST" name="campaignTest" finished-at="2022-08-02T14:33:25 IST" duration-ms="16542" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- campaignTest -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:com.Vtiger.TC_05_Create_Campaign_DeleteTest@3012646b]" started-at="2022-08-02T14:33:25 IST" name="logout" finished-at="2022-08-02T14:33:26 IST" duration-ms="1128" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logout -->
-        <test-method is-config="true" signature="closebrowser()[pri:0, instance:com.Vtiger.TC_05_Create_Campaign_DeleteTest@3012646b]" started-at="2022-08-02T14:33:26 IST" name="closebrowser" finished-at="2022-08-02T14:33:26 IST" duration-ms="182" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closebrowser -->
-      </class> <!-- com.Vtiger.TC_05_Create_Campaign_DeleteTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- com.Vtiger.TC_04_Select_All_CheckBoxTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
