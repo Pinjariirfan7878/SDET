@@ -16,7 +16,7 @@ public class TC_04_Select_All_CheckBoxTest extends BaseUtilityClass {
 	public void selectallTest() throws InterruptedException {
 
 
-		Assert.assertFalse(true);	
+		//Assert.assertFalse(true);	
 		HomePage homepage=new HomePage(driver);
 		homepage.getOrganization_Linkbutton().click();
 
