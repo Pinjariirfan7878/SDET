@@ -2,46 +2,49 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-08-03T15:15:04 IST" name="Default suite" finished-at="2022-08-03T15:15:38 IST" duration-ms="34183">
+  <suite started-at="2022-08-13T20:48:37 IST" name="Default suite" finished-at="2022-08-13T20:50:38 IST" duration-ms="120935">
     <groups>
       <group name="Regression">
-        <method signature="TC_04_Select_All_CheckBoxTest.selectallTest()[pri:4, instance:com.Vtiger.TC_04_Select_All_CheckBoxTest@3f6f6701]" name="selectallTest" class="com.Vtiger.TC_04_Select_All_CheckBoxTest"/>
+        <method signature="TC_05_Create_Campaign_DeleteTest.campaignTest()[pri:5, instance:com.Vtiger.TC_05_Create_Campaign_DeleteTest@3f6f6701]" name="campaignTest" class="com.Vtiger.TC_05_Create_Campaign_DeleteTest"/>
       </group> <!-- Regression -->
+      <group name="smoke">
+        <method signature="TC_05_Create_Campaign_DeleteTest.campaignTest()[pri:5, instance:com.Vtiger.TC_05_Create_Campaign_DeleteTest@3f6f6701]" name="campaignTest" class="com.Vtiger.TC_05_Create_Campaign_DeleteTest"/>
+      </group> <!-- smoke -->
       <group name="batch_Execution">
-        <method signature="TC_04_Select_All_CheckBoxTest.selectallTest()[pri:4, instance:com.Vtiger.TC_04_Select_All_CheckBoxTest@3f6f6701]" name="selectallTest" class="com.Vtiger.TC_04_Select_All_CheckBoxTest"/>
+        <method signature="TC_05_Create_Campaign_DeleteTest.campaignTest()[pri:5, instance:com.Vtiger.TC_05_Create_Campaign_DeleteTest@3f6f6701]" name="campaignTest" class="com.Vtiger.TC_05_Create_Campaign_DeleteTest"/>
       </group> <!-- batch_Execution -->
     </groups>
-    <test started-at="2022-08-03T15:15:04 IST" name="Default test" finished-at="2022-08-03T15:15:38 IST" duration-ms="34183">
-      <class name="com.Vtiger.TC_04_Select_All_CheckBoxTest">
-        <test-method is-config="true" signature="connectToDatabase()[pri:0, instance:com.Vtiger.TC_04_Select_All_CheckBoxTest@3f6f6701]" started-at="2022-08-03T15:15:04 IST" name="connectToDatabase" finished-at="2022-08-03T15:15:04 IST" duration-ms="11" status="PASS">
+    <test started-at="2022-08-13T20:48:37 IST" name="Default test" finished-at="2022-08-13T20:50:38 IST" duration-ms="120935">
+      <class name="com.Vtiger.TC_05_Create_Campaign_DeleteTest">
+        <test-method is-config="true" signature="connectToDatabase()[pri:0, instance:com.Vtiger.TC_05_Create_Campaign_DeleteTest@3f6f6701]" started-at="2022-08-13T20:48:37 IST" name="connectToDatabase" finished-at="2022-08-13T20:48:37 IST" duration-ms="14" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- connectToDatabase -->
-        <test-method is-config="true" signature="lauchBrowser()[pri:0, instance:com.Vtiger.TC_04_Select_All_CheckBoxTest@3f6f6701]" started-at="2022-08-03T15:15:04 IST" name="lauchBrowser" finished-at="2022-08-03T15:15:14 IST" duration-ms="9817" status="PASS">
+        <test-method is-config="true" signature="lauchBrowser()[pri:0, instance:com.Vtiger.TC_05_Create_Campaign_DeleteTest@3f6f6701]" started-at="2022-08-13T20:48:37 IST" name="lauchBrowser" finished-at="2022-08-13T20:49:29 IST" duration-ms="52055" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lauchBrowser -->
-        <test-method is-config="true" signature="loginToApp()[pri:0, instance:com.Vtiger.TC_04_Select_All_CheckBoxTest@3f6f6701]" started-at="2022-08-03T15:15:14 IST" name="loginToApp" finished-at="2022-08-03T15:15:16 IST" duration-ms="2452" status="PASS">
+        <test-method is-config="true" signature="loginToApp()[pri:0, instance:com.Vtiger.TC_05_Create_Campaign_DeleteTest@3f6f6701]" started-at="2022-08-13T20:49:29 IST" name="loginToApp" finished-at="2022-08-13T20:49:53 IST" duration-ms="23852" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToApp -->
-        <test-method signature="selectallTest()[pri:4, instance:com.Vtiger.TC_04_Select_All_CheckBoxTest@3f6f6701]" started-at="2022-08-03T15:15:16 IST" name="selectallTest" finished-at="2022-08-03T15:15:36 IST" duration-ms="19702" status="PASS">
+        <test-method signature="campaignTest()[pri:5, instance:com.Vtiger.TC_05_Create_Campaign_DeleteTest@3f6f6701]" started-at="2022-08-13T20:49:53 IST" name="campaignTest" finished-at="2022-08-13T20:50:33 IST" duration-ms="40161" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- selectallTest -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:com.Vtiger.TC_04_Select_All_CheckBoxTest@3f6f6701]" started-at="2022-08-03T15:15:36 IST" name="logout" finished-at="2022-08-03T15:15:38 IST" duration-ms="2075" status="PASS">
+        </test-method> <!-- campaignTest -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.Vtiger.TC_05_Create_Campaign_DeleteTest@3f6f6701]" started-at="2022-08-13T20:50:33 IST" name="logout" finished-at="2022-08-13T20:50:38 IST" duration-ms="4600" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="closebrowser()[pri:0, instance:com.Vtiger.TC_04_Select_All_CheckBoxTest@3f6f6701]" started-at="2022-08-03T15:15:38 IST" name="closebrowser" finished-at="2022-08-03T15:15:38 IST" duration-ms="87" status="PASS">
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:com.Vtiger.TC_05_Create_Campaign_DeleteTest@3f6f6701]" started-at="2022-08-13T20:50:38 IST" name="closebrowser" finished-at="2022-08-13T20:50:38 IST" duration-ms="230" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closebrowser -->
-        <test-method is-config="true" signature="diconnectToDatabase()[pri:0, instance:com.Vtiger.TC_04_Select_All_CheckBoxTest@3f6f6701]" started-at="2022-08-03T15:15:38 IST" name="diconnectToDatabase" finished-at="2022-08-03T15:15:38 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="diconnectToDatabase()[pri:0, instance:com.Vtiger.TC_05_Create_Campaign_DeleteTest@3f6f6701]" started-at="2022-08-13T20:50:38 IST" name="diconnectToDatabase" finished-at="2022-08-13T20:50:38 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- diconnectToDatabase -->
-      </class> <!-- com.Vtiger.TC_04_Select_All_CheckBoxTest -->
+      </class> <!-- com.Vtiger.TC_05_Create_Campaign_DeleteTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

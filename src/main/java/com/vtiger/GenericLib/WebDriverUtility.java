@@ -3,6 +3,7 @@ package com.vtiger.GenericLib;
 import java.io.File;
 import java.io.IOException;
 import java.time.Duration;
+import java.util.Set;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.OutputType;
@@ -79,14 +80,14 @@ public class WebDriverUtility extends BaseUtilityClass {
 		Alert al=driver.switchTo().alert();
 		al.dismiss();
 	}
-	
+
 	public WebDriver switchWindow(String Wh) 
 	{
 		driver.switchTo().window(Wh);
 		return driver.switchTo().window(Wh);
 
 	}
-	 
+
 	public String screenshot(String methodName)
 	{
 		TakesScreenshot ts=(TakesScreenshot)sdriver;
@@ -100,6 +101,23 @@ public class WebDriverUtility extends BaseUtilityClass {
 		}
 		return path;
 	}
-	
+
+
+	public void switchtoMultiWindow(String title)
+	{
+		Set<String> window_ids = driver.getWindowHandles();
+
+		for (String window_id : window_ids)
+		{
+			String actualTitle=driver.switchTo().window(window_id).getTitle();
+			if(actualTitle.equals(title)) {
+				break;
+			}
+
+		}
+
+
+	}
+
 
 }
